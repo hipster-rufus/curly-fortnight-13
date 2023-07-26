@@ -51,12 +51,12 @@ router.post('/', async (req, res) => {
 // PUT function to update tag data
 router.put('/:id', async (req, res) => {
   await Tag.update({
+    tag_name: req.body.tag_name
+  },
+  {
     where: {
       id: req.params.id
     }
-  },
-  {
-    tag_name: req.body.tag_name
   })
   .then((dbTagData => {
     if(!dbTagData) {

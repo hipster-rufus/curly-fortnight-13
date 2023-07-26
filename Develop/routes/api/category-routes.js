@@ -51,12 +51,12 @@ router.post('/', async (req, res) => {
 // PUT function to update category data
 router.put('/:id', async (req, res) => {
   await Category.update({
+    category_name: req.body.category_name
+  },
+  {
     where: {
       id: req.params.id
     }
-  },
-  {
-    category_name: req.body.category_name
   })
   .then((dbCategoryData => {
     if(!dbCategoryData) {

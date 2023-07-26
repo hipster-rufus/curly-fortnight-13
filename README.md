@@ -11,6 +11,8 @@ The Module 13 Challenge demonstrates the use of a working Express.js API, Sequel
 ## Installation
 To install my project, you will need to clone my repository from GitHub onto your local directory by entering this code into your command line: <br>
 `git clone https://github.com/hipster-rufus/curly-fortnight-13.git` <br>
+Install packages: <br>
+`npm install` or `npm i`
 Create the database in MySQL: <br>
 `mysql -u root -p` <br>
 `source db/schema.sql` <br>
@@ -22,7 +24,7 @@ Then start the server: <br>
 This backend server allows the retail company to successfully retrieve, create, update, and delete data in a database. One simply sends their requests through Insomnia and are able to interact with the company's data as needed.
 
 [My eCommerce Database: GitHub Repository](https://github.com/hipster-rufus/curly-fortnight-13)
-[Demonstration Video]()
+[Demonstration Video](https://drive.google.com/file/d/1vhgASCUKLq3grpV8MAaVB5fR8yCAuX53/view)
 
 ## Credits
 The following websites were used to generate this project:
